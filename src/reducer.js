@@ -39,6 +39,7 @@ const reducer = (state, action) => {
           }
           return { ...state, page: prevPage }
         }
+        break;
     default:
       return state;
   }
